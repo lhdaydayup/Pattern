@@ -9,9 +9,4 @@ public class GifParsePictureFactory extends ParsePictureUtilFactory {
     public ParsePictureUtil createParsePictureUtil() {
         return new GifParsePictureUtil();
     }
-
-    /*
-    *
-    *nihao
-    * */
 }
