@@ -1,0 +1,129 @@
+@startuml
+title CombinationPattern
+namespace CombinationPattern #red{
+abstract class Component{
+ + abstract void operation()
+ + abstract void addComponent(Component component)
+ + abstract void removeComponent(Component component)
+ + abstract Component getChild(int i)
+}
+
+class File{
+  - String name
+  - List<Component> children
+  + void operation()
+  /'
+    for(Component c:children){
+        c.peration()
+    }
+  '/
+  + void addComponent(Component component)
+  + void removeComponent(Component component)
+  + Component getChild(int i)
+ }
+
+ class ImageFile{
+  - String name
+  + void operation()
+ }
+ class TxtFile{
+   - String name
+   + void operation()
+ }
+ Component <|-- File
+ Component <|-- ImageFile
+ Component <|-- TxtFile
+ File "children" o-- Component
+
+
+class Client
+Component <.. Client
+}
+
+
+namespace SafeCombinationPattern #red{
+
+abstract class Component{
+ + abstract void operation()
+}
+
+class File{
+  - String name
+  - List<Component> children
+  + void operation()
+  /'
+    for(Component c:children){
+        c.peration()
+    }
+  '/
+  + void addComponent(Component component)
+  + void removeComponent(Component component)
+  + Component getChild(int i)
+ }
+
+ class ImageFile{
+  - String name
+  + void operation()
+ }
+ class TxtFile{
+   - String name
+   + void operation()
+ }
+ Component <|-- File
+ Component <|-- ImageFile
+ Component <|-- TxtFile
+ File "children" o-- Component
+
+
+class Client
+Component <.. Client
+}
+
+namespace TouMingCombinationPattern #red{
+
+abstract class Component{
+  + abstract void operation()
+  + abstract void addComponent(Component component)
+  + abstract void removeComponent(Component component)
+  + abstract Component getChild(int i)
+}
+
+class File{
+  - String name
+  - List<Component> children
+  + void operation()
+  /'
+    for(Component c:children){
+        c.peration()
+    }
+  '/
+  + void addComponent(Component component)
+  + void removeComponent(Component component)
+  + Component getChild(int i)
+ }
+
+ class ImageFile{
+   - String name
+   + void operation()
+   + void addComponent(Component component)
+   + void removeComponent(Component component)
+   + Component getChild(int i)
+ }
+ class TxtFile{
+    - String name
+    + void operation()
+    + void addComponent(Component component)
+    + void removeComponent(Component component)
+    + Component getChild(int i)
+ }
+ Component <|-- File
+ Component <|-- ImageFile
+ Component <|-- TxtFile
+ File "children" o-- Component
+
+
+class Client
+Component <.. Client
+}
+@enduml
+

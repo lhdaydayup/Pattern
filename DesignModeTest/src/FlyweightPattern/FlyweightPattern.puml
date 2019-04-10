@@ -1,0 +1,68 @@
+@startuml
+
+
+class Position{
+    - String x
+    - String y
+}
+
+class Size{
+    - String wight
+    - String hight
+}
+
+abstract class Document{
+    + abstract void getDocumentName()
+    + void setInfo(Position p,Size size)
+}
+
+class Picture{
++ String name
++ void getDocumentName()
+}
+class Video{
++ String name
++ void getDocumentName()
+}
+class Medio{
++ String name
++ void getDocumentName()
+}
+
+Position  <.. Document
+Size  <.. Document
+Document<|--Picture
+Document<|--Video
+Document<|--Medio
+
+
+class DocumentFactory{
++ static DocumentFactory documentFactory
++ static HashTable hashtable
++ static DocumentFactory getInstance()
++ DocumentFactory()
+/'
+    初始化工厂里的例子
+'/
+}
+
+Document <.. DocumentFactory
+
+class Client
+
+
+DocumentFactory <.. Client
+Document <.. Client
+
+
+
+
+
+/'Sunny软件公司欲开发一个多功能文档编辑器，
+在文本文档中可以插入图片、动画、视频 等
+多媒体资料，为了节约系统资源，相同的图片
+、动画和视频在同一个文档中只需保存 一份
+，但是可以多次重复出现，而且它们每次出现
+时位置和大小均可不同。试使用享元 模式设
+计该文档编辑器'/
+@enduml

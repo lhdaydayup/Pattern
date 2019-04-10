@@ -1,0 +1,46 @@
+@startuml
+
+package BridgePattern #gray{
+abstract class Trans{
+  # DataSource data
+  + setData(DataSource data)
+  + abstract void change()
+}
+interface DataSource{
+  + void getData()
+}
+
+class OracleDataSource{
+  + void transToWenjian()
+}
+
+class MysqlDataSource{
+   + void transToWenjian()
+ }
+
+DataSource <|.. OracleDataSource
+DataSource <|.. MysqlDataSource
+
+class TxtTrans{
+   + void change()
+ }
+class XmlTrans{
+   + void change()
+ }
+class PdfTrans{
+   + void change()
+ }
+
+ Trans <|--TxtTrans
+ Trans <|--XmlTrans
+ Trans <|--PdfTrans
+
+Trans o--> DataSource
+
+class Client
+
+Trans <..Client
+DataSource <..Client
+}
+
+@enduml

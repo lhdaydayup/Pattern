@@ -1,0 +1,33 @@
+@startuml
+
+
+package "simpleFactoryPattern" #red{
+abstract class DrawUtil{
+    + abstract void draw();
+    + abstract void erase();
+}
+
+class FangXinDrawUtil{
+    + void draw();
+    + void erase();
+}
+class SanJiaoXinDrawUtil{
+    + void draw();
+    + void erase();
+}
+class YuanXinDrawUtil{
+    + void draw();
+    + void erase();
+}
+
+DrawUtil<|--FangXinDrawUtil
+DrawUtil <|--SanJiaoXinDrawUtil
+DrawUtil <|--YuanXinDrawUtil
+
+class UtilFactory{
+    + DrawUtil static getUtil(String msg)
+}
+DrawUtil <.. UtilFactory
+}
+
+@enduml

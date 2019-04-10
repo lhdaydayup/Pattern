@@ -1,0 +1,44 @@
+@startuml
+
+abstract class Component{
+# abstract void jiami()
+}
+
+class Decorator{
+# Component component
+# void jiami()
+/'
+ component.jiami()
+'/
+}
+
+Decorator "component" o-- Component
+Decorator "component" <|-- Component
+class OneJiaMi{
+    # void jiami()
+}
+class TwoJiaMi{
+    # void jiami()
+}
+class ThreeJiaMi{
+    # void jiami()
+}
+class EazyJiaMi{
+    # void jiami()
+}
+Decorator<|-- OneJiaMi
+Decorator<|-- TwoJiaMi
+Decorator<|-- ThreeJiaMi
+EazyJiaMi<|--Component
+
+
+
+
+
+/'Sunny软件公司欲开发了一个数据加密模块，可以对字符串进行加密。
+最简单的加密算法 通过对字母进行移位来实现，同时还提供了稍复杂
+的逆向输出加密，还提供了更为高级 的求模加密。用户先使用最简单
+的加密算法对字符串进行加密，如果觉得还不够可以对 加密之后的结
+果使用其他加密算法进行二次加密，当然也可以进行第三次加密。
+试使用 装饰模式设计该多重加密系统'/
+@enduml

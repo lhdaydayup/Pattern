@@ -1,0 +1,69 @@
+@startuml
+
+package BuildPattern #yellow{
+    class Mode{
+        - String caidang;
+        - String bofanglibiao
+        - String zhuchuangkou
+        - String kongzhitiaol
+        - String shouchangliebiao
+        + String getCaidang()
+        + void setCaidang(String caidang)
+        + String getBofanglibiao()
+        + void setBofanglibiao(String bofanglibiao)
+        + String getZhuchuangkou()
+        + void setZhuchuangkou(String zhuchuangkou)
+        + String getKongzhitiaol()
+        + void setKongzhitiaol(String kongzhitiaol)
+        + String getShouchangliebiao()
+        + void setShouchangliebiao(String shouchangliebiao)
+        }
+
+    abstract ModeBulid{
+        # Mode mode=new Mode();
+        #abstract void buildCaidan()
+        #abstract void buildBofanglibiao()
+        #abstract void buildZhuchuangkou()
+        #abstract void buildKongzhitiaol()
+        #abstract void buildShouchangliebiao()
+    }
+
+    class JinJianModeBuild{
+        + void buildCaidan()
+        + void buildBofanglibiao()
+        + void buildZhuchuangkou()
+        + void buildKongzhitiaol()
+        + void buildShouchangliebiao()
+    }
+    class WangzhengModeBuild{
+        + void buildCaidan()
+        + void buildBofanglibiao()
+        + void buildZhuchuangkou()
+        + void buildKongzhitiaol()
+        + void buildShouchangliebiao()
+
+
+        }
+    ModeBulid <|--JinJianModeBuild
+    ModeBulid <|--WangzhengModeBuild
+
+    class ModeDesign{
+        +static construct(ModeBulid build):Mode
+    }
+
+    Mode<..ModeDesign
+    ModeBulid<..ModeDesign
+
+    class client
+
+    ModeDesign<..client
+    ModeBulid<..client
+
+
+
+
+
+
+
+}
+@enduml

@@ -1,0 +1,64 @@
+@startuml
+
+
+package factoryMethodPattern #green{
+    abstract class ParsePictureUtil{
+     +abstract void parsePicuter()
+    }
+
+    abstract class CopyPictureUtil{
+     +abstract void copyPicuter()
+    }
+
+    class JpgCopyPictureUtil{
+     + void copyPicuter()
+    }
+    class GifCopyPictureUtil{
+     + void copyPicuter()
+    }
+
+    CopyPictureUtil <|--JpgCopyPictureUtil
+    CopyPictureUtil <|--GifCopyPictureUtil
+
+    class JpgParsePictureUtil{
+     + void parsePicuter()
+    }
+    class GifParsePictureUtil{
+     + void parsePicuter()
+     }
+
+    ParsePictureUtil <|--JpgParsePictureUtil
+    ParsePictureUtil <|--GifParsePictureUtil
+
+    abstract class ParsePictureUtilFactory{
+     + abstract ParsePictureUtil createParsePictureUtil();
+     + abstract CopyPictureUtil createCopyPictureUtil();
+    }
+    class GifPictureFactory{
+     + ParsePictureUtil createParsePictureUtil()
+     + CopyPictureUtil createCopyPictureUtil()
+    }
+    class JpgPictureFactory{
+     + ParsePictureUtil createParsePictureUtil()
+     + CopyPictureUtil createCopyPictureUtil()
+    }
+
+    ParsePictureUtilFactory <|--GifPictureFactory
+    ParsePictureUtilFactory <|--JpgPictureFactory
+
+    class client
+
+    ParsePictureUtilFactory <..client
+    ParsePictureUtil <..client
+    CopyPictureUtil <..client
+
+
+
+    JpgCopyPictureUtil <..JpgPictureFactory:create()
+    GifCopyPictureUtil <..GifPictureFactory:create()
+    JpgParsePictureUtil <..JpgPictureFactory:create()
+    GifParsePictureUtil <..GifPictureFactory:create()
+
+}
+
+@enduml

@@ -1,0 +1,40 @@
+@startuml
+
+package "adapterPattern" as adapter #orange{
+class ThirdSystem{
++void jiami()
+}
+
+interface NowUtil{
++void newJiami()
+}
+
+/'类适配器'/
+class Adapter{
++void newJiami()
+/'{
+     jiami()
+}'/
+}
+
+/'对象适配器'/
+class ObjectAdapter{
+ -ThirdSystem thirdSystem
+ + ObjectAdapter(ThirdSystem thirdSystem)
+ +void newjiami()
+ /' {
+   thirdSystem.jiami()
+   }'/
+
+
+}
+
+NowUtil<|--ObjectAdapter
+ThirdSystem<--ObjectAdapter
+
+
+ThirdSystem <|--Adapter
+NowUtil <|..Adapter
+}
+
+@enduml

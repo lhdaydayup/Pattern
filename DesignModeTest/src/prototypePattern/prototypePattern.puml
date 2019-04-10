@@ -1,0 +1,55 @@
+@startuml
+
+package prototypePattern #yellow {
+ interface Cloneable
+ interface Serializable
+ interface Prototype
+ Cloneable<|--Prototype
+ Serializable<|--Prototype
+ interface OfficePrototype{
+    +void clone()
+    +void deepClone()
+ }
+ Prototype<|--OfficePrototype
+
+ class AOfficePrototype{
+       +void clone()
+       +void deepClone()
+   }
+ class BOfficePrototype{
+        +void clone()
+        +void deepClone()
+   }
+ OfficePrototype<|..AOfficePrototype
+ OfficePrototype<|..BOfficePrototype
+
+ class PrototypeManager{
+   - static PrototypeManager prototypeManager=new PrototypeManager()
+   - Hashtable hashtable
+   - PrototypeManager()
+   {hashtable=new Hashtable,hashtable.add("A",new AOfficePrototype),hashtable.add("B",new BOfficePrototype)}
+   + static PrototypeManager getInstance(return prototypeManager)
+   + OfficePrototype getOfficePrototype(String type)
+    {hashtable.get(type).clone()}
+   + OfficePrototype getOfficePrototypeDeep(String type)
+    {hashtable.get(type).deepclone()}
+   + void addOfficePrototype(String type,OfficePrototype officePrototype)
+   {hashtable.add(type,officePrototype)}
+ }
+
+  OfficePrototype<..PrototypeManager
+
+  PrototypeManager<..client
+
+
+
+
+
+
+
+
+
+
+}
+
+@enduml

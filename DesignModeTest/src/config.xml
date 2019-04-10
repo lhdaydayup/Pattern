@@ -1,0 +1,19 @@
+<config>
+    <className>BridgePattern.MysqlDataSource</className>
+    <className>BridgePattern.PdfTrans</className>
+    <className>abstuctFactoryPattern.factory.AndroidFactory</className>
+</config>
+
+
+
+        <!--工厂方法模式（单个产品等级结构）-->
+        <!--GifParsePictureUtil-->
+        <!--JpgParsePictureUtil-->
+
+        <!--抽象工厂模式（多个产品等级结构）-->
+        <!--abstuctFactoryPattern.factory.SymbianFactory-->
+        <!--abstuctFactoryPattern.factory.AndroidFactory-->
+        <!--abstuctFactoryPattern.factory.WindowFactory-->
+
+
+
