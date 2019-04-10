@@ -1,7 +1,6 @@
 package factoryMethodPattern.factory;
 
 import factoryMethodPattern.product.GifParsePictureUtil;
-import factoryMethodPattern.product.JpgParsePictureUtil;
 import factoryMethodPattern.product.ParsePictureUtil;
 
 public class GifParsePictureFactory extends ParsePictureUtilFactory {
