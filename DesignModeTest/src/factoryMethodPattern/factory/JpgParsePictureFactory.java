@@ -8,4 +8,5 @@ public class JpgParsePictureFactory extends ParsePictureUtilFactory {
     public ParsePictureUtil createParsePictureUtil() {
         return new JpgParsePictureUtil();
     }
+
 }
