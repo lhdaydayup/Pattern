@@ -1,26 +1,36 @@
 @startuml
 
-abstract class AbstractList
-abstract AbstractCollection
-interface List
-interface Collection
+  abstract class Base{
+    + abstract void method()
+  }
 
-List <|-- AbstractList
-Collection <|-- AbstractCollection
+  class Do{
+    + void method()
+  }
 
-Collection <|- List
-AbstractCollection <|- AbstractList
-AbstractList <|-- ArrayList
+  Base <|-- Do
+  class ProxyDo{
+    - Base base
+    + void before(new Thread().....画小图标)
+    + void method(base.method())
+    + void after()
+  }
 
-class ArrayList {
-Object[] elementData
-size()
-}
+  Base <|-- "base" ProxyDo
 
-enum TimeUnit {
-DAYS
-HOURS
-MINUTES
-}
+
+  class client
+  Base <.. client
 
 @enduml
+/'
+
+3. 某软件公司欲开发一款基于C/S的网络图片查看器，具体
+功能描述如下:用户只需在图 片查看器中输入网页URL，程序
+将自动将该网页所有图片下载到本地，考虑到有些网页 图片比
+较多，而且某些图片文件比较大，因此将先以图标的方式显示
+图片，不同类型的 图片使用不同的图标，并且在图标下面标注
+该图片的文件名，用户单击图标后可查看真 正的图片，界面效
+果如图15-7所示。试使用虚拟代理模式设计并实现该图片查看器。
+(注:可以结合多线程机制，使用一个线程显示小图标，同时启动另一个线程在后台加 载原图。)
+ '/
