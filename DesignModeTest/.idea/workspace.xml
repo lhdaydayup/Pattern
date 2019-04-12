@@ -254,7 +254,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555049412681" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555049448851" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -393,7 +393,7 @@
       <workItem from="1554341199564" duration="24549000" />
       <workItem from="1554948564967" duration="2857000" />
       <workItem from="1554953737314" duration="5642000" />
-      <workItem from="1555031425522" duration="2411000" />
+      <workItem from="1555031425522" duration="2672000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1554889805240</created>
@@ -427,7 +427,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105226000" />
+    <option name="totallyTimeSpent" value="105487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,7 +456,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.586747" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.560241" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.48" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32831737" />
