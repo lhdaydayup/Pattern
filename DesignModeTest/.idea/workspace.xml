@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e9166d3-cfd9-4666-a778-49147eae9051" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/BIGZZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/GM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/TGM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ZR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ZZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decoratorPattern/B/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decoratorPattern/B/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decoratorPattern/B/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decoratorPattern/B/EazyJiaMi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decoratorPattern/B/OneJiaMi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decoratorPattern/B/ThreeJiaMi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decoratorPattern/B/TwoJiaMi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commandPattern/AddCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commandPattern/AddReceive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commandPattern/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commandPattern/CommandPattern.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commandPattern/Invoke.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignModeTest/decoratorPattern/Decorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignModeTest/decoratorPattern/Decorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignModeTest/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.puml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignModeTest/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignModeTest/decoratorPattern/B/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignModeTest/decoratorPattern/B/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignModeTest/decoratorPattern/B/EazyJiaMi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignModeTest/decoratorPattern/B/EazyJiaMi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.puml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,17 +38,17 @@
     <session id="-592080673">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,9 +68,9 @@
           <entry key="class" value="2" />
           <entry key="fxml" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="295" />
+          <entry key="java" value="303" />
           <entry key="md" value="1" />
-          <entry key="puml" value="59" />
+          <entry key="puml" value="60" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
@@ -85,10 +78,10 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="295" />
+          <entry key="JAVA" value="303" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="PlantUML file" value="59" />
+          <entry key="PlantUML file" value="60" />
           <entry key="UML" value="15" />
           <entry key="XML" value="6" />
         </counts>
@@ -96,17 +89,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="10990" />
-          <entry key="puml" value="5058" />
+          <entry key="java" value="12101" />
+          <entry key="puml" value="5842" />
           <entry key="txt" value="4" />
           <entry key="xml" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10990" />
+          <entry key="JAVA" value="12101" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="PlantUML file" value="5058" />
+          <entry key="PlantUML file" value="5842" />
           <entry key="XML" value="122" />
         </counts>
       </usages-collector>
@@ -115,91 +108,119 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decoratorPattern/B/EazyJiaMi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decoratorPattern/B/OneJiaMi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decoratorPattern/B/TwoJiaMi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decoratorPattern/B/Decorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.puml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="300">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityPattern/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/mytest/Father.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decoratorPattern/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-end-line="12" />
+            <state relative-caret-position="105">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/commandPattern/CommandPattern.puml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/commandPattern/Invoke.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+              <folding>
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/commandPattern/AddReceive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="434" selection-start-line="434" selection-end-line="434" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/commandPattern/Command.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/commandPattern/AddCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/decoratorPattern/B/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decoratorPattern/B/Component.java">
+        <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityPattern/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityPattern/BIGZZ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="90">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -250,12 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CombinationPattern/Component.java" />
-        <option value="$PROJECT_DIR$/src/CombinationPattern/File.java" />
-        <option value="$PROJECT_DIR$/src/CombinationPattern/ImageFile.java" />
-        <option value="$PROJECT_DIR$/src/CombinationPattern/TxtFile.java" />
-        <option value="$PROJECT_DIR$/src/CombinationPattern/Client.java" />
-        <option value="$PROJECT_DIR$/src/CombinationPattern/CombinationPattern.puml" />
         <option value="$PROJECT_DIR$/src/mytest/Son.java" />
         <option value="$PROJECT_DIR$/src/mytest/Father.java" />
         <option value="$PROJECT_DIR$/src/decoratorPattern/Component.java" />
@@ -286,7 +301,6 @@
         <option value="$PROJECT_DIR$/src/ProxyPattern/ProxyPattern.puml" />
         <option value="$PROJECT_DIR$/src/singlePattern/LoadBalanceIoDH.java" />
         <option value="$PROJECT_DIR$/src/decoratorPattern/Decorator.java" />
-        <option value="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.puml" />
         <option value="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/TGM.java" />
         <option value="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/Person.java" />
         <option value="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ZR.java" />
@@ -301,6 +315,13 @@
         <option value="$PROJECT_DIR$/src/decoratorPattern/B/Decorator.java" />
         <option value="$PROJECT_DIR$/src/decoratorPattern/B/EazyJiaMi.java" />
         <option value="$PROJECT_DIR$/src/decoratorPattern/B/Client.java" />
+        <option value="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.puml" />
+        <option value="$PROJECT_DIR$/src/commandPattern.java" />
+        <option value="$PROJECT_DIR$/src/commandPattern/Command.java" />
+        <option value="$PROJECT_DIR$/src/commandPattern/AddCommand.java" />
+        <option value="$PROJECT_DIR$/src/commandPattern/Invoke.java" />
+        <option value="$PROJECT_DIR$/src/commandPattern/AddReceive.java" />
+        <option value="$PROJECT_DIR$/src/commandPattern/CommandPattern.puml" />
       </list>
     </option>
   </component>
@@ -337,9 +358,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,26 +377,7 @@
               <item name="DesignModeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModeTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ChainOfResponsibilityPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignModeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="decoratorPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignModeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="decoratorPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="B" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignModeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="factoryMethodPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="commandPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -387,7 +389,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/lh/IdeaProjects/DesignModeTest/src/prototypePattern/AofficePrototype.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555057072827" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555316346933" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -417,7 +419,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Invoke">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FlyweightPattern.Client" />
       <module name="DesignModeTest" />
@@ -457,19 +459,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prototypePattern.Client" />
-      <module name="DesignModeTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="prototypePattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="decoratorPattern.B.Client" />
       <module name="DesignModeTest" />
@@ -483,20 +472,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Invoke" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="commandPattern.Invoke" />
+      <module name="DesignModeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="commandPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Client (1)" />
-      <item itemvalue="Application.Client (4)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Invoke" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Invoke" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -526,7 +528,8 @@
       <workItem from="1554341199564" duration="24549000" />
       <workItem from="1554948564967" duration="2857000" />
       <workItem from="1554953737314" duration="5642000" />
-      <workItem from="1555031425522" duration="8324000" />
+      <workItem from="1555031425522" duration="8854000" />
+      <workItem from="1555293756661" duration="8439000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1554889805240</created>
@@ -567,7 +570,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111139000" />
+    <option name="totallyTimeSpent" value="120108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,7 +585,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28397712" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28755364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -591,13 +594,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31686747" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.10963856" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994528" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30722892" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.012048192" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.48" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32831737" />
@@ -610,7 +613,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.3297568" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
-      <window_info anchor="right" x="501" y="71" width="869" height="704" id="PlantUML" order="9" weight="0.40772533" />
+      <window_info anchor="right" x="501" y="71" width="869" height="704" id="PlantUML" order="9" visible="true" weight="0.40772533" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20171674" />
@@ -713,88 +716,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/factoryMethodPattern/factory/Pattern/README.md" />
-    <entry file="file://$PROJECT_DIR$/src/adapterPattern/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapterPattern/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapterPattern/ObjectAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/adapterPattern.ObjectAdapter">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>adapterPattern.ObjectAdapter</OriginalElement>
-          <nodes>
-            <node x="0.0" y="80.0">adapterPattern.ObjectAdapter</node>
-            <node x="20.0" y="0.0">adapterPattern.NowUtil</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="adapterPattern.ObjectAdapter" target="adapterPattern.NowUtil">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="70.0" y="55.0" />
-          <SelectedNodes>
-            <node>adapterPattern.ObjectAdapter</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factoryMethodPattern/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/factoryMethodPattern.client.Client">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>factoryMethodPattern.client.Client</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">factoryMethodPattern.client.Client</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="15.0" />
-          <SelectedNodes>
-            <node>factoryMethodPattern.client.Client</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factoryMethodPattern/factory/GifParsePictureFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/factoryMethodPattern/factory/JpgParsePictureFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -824,10 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -985,10 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="30" selection-start-line="6" selection-end-line="7" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,17 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityPattern/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityPattern/BIGZZ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1031,24 +933,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.puml">
+    <entry file="file://$PROJECT_DIR$/src/decoratorPattern/B/EazyJiaMi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decoratorPattern/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityPattern/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="30">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1073,10 +961,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/decoratorPattern/B/EazyJiaMi.java">
+    <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityPattern/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decoratorPattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -1087,10 +982,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commandPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mytest/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ChainOfResponsibilityPattern/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commandPattern/AddCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="434" selection-start-line="434" selection-end-line="434" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/decoratorPattern/B/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commandPattern/Invoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commandPattern/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commandPattern/AddReceive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commandPattern/CommandPattern.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
         </state>
       </provider>
     </entry>

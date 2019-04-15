@@ -1,0 +1,49 @@
+@startuml
+
+
+class Invoke{
+   - command:Command
+   + int excute(int i)
+   + int undo()
+   + int redo()
+}
+
+
+Command <--"command" Invoke
+abstract class Command{
+   + int excute(int i)
+   + int undo()
+   + int redo()
+}
+
+AddReceive <--"receive" AddCommand
+
+class AddCommand{
+    - receive:AddReceive
+    - List<i> iss
+    - int index
+    + int excute(int i)
+    + int undo()
+    + int redo()
+}
+
+Command <|--AddCommand
+
+class AddReceive{
+    - int i=0
+    + int add(int i)
+    + int undo()
+    + int redo()
+}
+
+Invoke <.. Client
+AddCommand<..Client
+
+
+
+
+/'
+修改简易计算器源代码，使之能够实现多次撤销(Undo)
+和恢复(Redo)
+'/
+@enduml
